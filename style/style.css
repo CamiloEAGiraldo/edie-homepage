@@ -1,0 +1,269 @@
+/* ------ GENERAL TAGS ------ */
+img{
+    border-radius: 10%;
+}
+.button{
+    border-radius: 10px;
+    border-style: none;
+    width: fit-content;
+    padding: 3% 6%;
+    color: #ffffff;
+    font-size: 16px;
+}
+.button-on{
+    background-color: #2D9CDB;
+}
+.button-off{
+    background-color: #E0E0E0;
+    color: #828282;
+}
+.input-txt{
+    border-radius: 10px;
+    width: 90%;
+    background-color: #F2F2F2;
+    color: #BDBDBD;
+    border-style: none;
+    padding:  6%;
+}
+.button-email{
+    position: absolute;
+    right: 13%;
+    margin: 2%;
+
+}
+
+/* ---- END GENERAL TAGS ------ */
+/* ------ COMBINED TAGS ------ */
+/* ---- END COMBINED TAGS ------ */
+/* ------ HEADER ------ */
+/* ------ NAVBAR ------ */
+nav img{
+    position: absolute;
+    top: 3%;
+    right: -3%;
+}
+#nav-checkbox{
+    display: none;
+}
+#nav-btn2{
+    z-index: 2;
+    filter: invert(1);
+    position: absolute;
+    top: 3%;
+    right: -3%
+}
+#nav-menu:not(:checked){
+    position: absolute;
+    transform: translateY(-40rem);
+}
+#nav-checkbox:checked + #nav-menu{
+    width: 100%;
+    height: 32rem;
+    z-index: 2;
+    top: -1rem;
+    margin: 0%;
+    padding: 0%;
+    padding-top: 50%;
+    transform: translateY(0%);
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+}
+/* ---- END NAVBAR ------ */
+/* ---- END HEADER ------ */
+/* ------ BODY ------ */
+/* ------ INTRO ------ */
+#intro h2,
+#intro h3,
+#intro-p1,
+#intro-p2{
+    width: 80%;
+    margin: 5% auto;
+}
+#intro h2,
+#intro h3{
+    font-size: 150%;
+    color: #333333;
+}
+#intro-p1{
+    color: #2D9CDB;
+}
+#intro-p2{
+    color: #4F4F4F;
+}
+#intro-img{
+    width: 98%;
+    display: block;
+    margin: 1% auto;
+}
+#intro-email{
+    display: block;
+    margin: 0% auto;
+    width: 80%;
+}
+.email-p{
+    margin: 0%;
+    color: #828282;
+}
+/* ---- END INTRO ------ */
+/* ------ SERVICES ------ */
+#services{
+    width: 80%;
+    margin: 0% auto;
+}
+#services h2{
+    display: block;
+    width: 70%;
+    margin-top: 60%;
+    margin-left: 15%;
+}
+.services-img{
+    width: fit-content;
+    padding: 4%;
+    border-radius: 30%;
+    background-color: #000000;
+}
+.services-img img{
+    filter: invert(1);
+}
+#services-img1{
+    background-color: #2D9CDB;
+}
+#services-img2{
+    background-color: #27AE60;
+}
+#services-img3{
+    background-color: #EB5757;
+}
+#services article{
+    margin-top: 20%;
+    margin-bottom: 50%;
+}
+/* ---- END SERVICES ------ */
+/* ------ PROJECTS ------ */
+#projects h2{
+    width: 70%;
+    margin: 5% auto;
+}
+#projects img{
+    display: block;
+    width: 90%;
+    margin: 10% auto 5%;
+
+}
+#projects h3,
+#projects h4{
+    margin: 0%;
+    margin-left: 2%;
+}
+#projects h4{
+    color: #828282;
+}
+#projects a{
+    display: block;
+    margin: 10% 2% 30%;
+    margin-left: 2%;
+    text-decoration: none;
+    color: #2D9CDB;
+}
+/* ---- END PROJECTS ------ */
+/* ------ TEAM ------ */
+#team h3{
+    color: #EB5757;
+    margin-left: 2%;
+}
+#team h2{
+    font-size: 36px;
+}
+#team p,
+#team h2{
+    margin-left: 2%;
+    width: 80%;
+}
+#team p{
+    color: #4F4F4F;
+}
+#team-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+#team-img1{
+    margin: 20% 5%;
+    width: 48%;
+    right: 0%;
+}
+#team-img2{
+    position: absolute;
+    width: 38%;
+    left: 55%;
+}
+#team-img3{
+    position: absolute;
+    width: 40%;
+    left: 55%;
+    transform: translateY(8rem);
+}
+#team p{
+    margin-bottom: 10%;
+}
+/* ---- END TEAM ------ */
+/* ------ CLIENTS ------ */
+/* ---- END CLIENTS ------ */
+#clients{
+    width: 90%;
+    margin: 25% auto;
+}
+#clients p{
+    font-size: 24px;
+}
+#clients img{
+    position: absolute;
+    width: 30%;
+}
+#clients h2,
+#clients h3{
+    display: block;
+    text-align: left;
+    margin-left: 40%;
+}
+#clients h2{
+    font-size: 24px;
+}
+#clients h3{
+    font-size: 18px;
+    font-weight: 0.1rem;
+    color: #828282;
+}
+/* ------ CONTACT ------ */
+#contact{
+    background-color: #100E1D;
+    color: #FFFFFF;
+    padding: 5%;
+}
+#contact-menu{
+    width: fit-content;
+    margin: 0%;
+}
+#contact-menu a{
+    display: grid;
+    grid-template-columns: 1fr;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+#contact-email{
+    margin: 20% 10%;
+}
+#contact-email_input{
+    width: 85%;
+    right: -10%;
+}
+#contact-email .button-email{
+    right: 18%;
+    margin: 1%;
+}
+#contact-ref{
+    text-align: center;
+    color: #828282;
+}
+/* ---- END CONTACT ------ */
+/* ---- END BODY ------ */

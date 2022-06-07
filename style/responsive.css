@@ -1,0 +1,13 @@
+/* ----------(MEDIA FOR 320PX)---------- */
+@media(max-width: 319px){
+    body{
+        background-color: blue;
+    }
+}
+/* ----------(END OF MEDIA FOR 320PX)---------- */
+/* ----------(MEDIA FOR 768PX)---------- */
+/* ----------(END OF MEDIA FOR 768PX)---------- */
+/* ----------(MEDIA FOR 1024PX)---------- */
+/* ----------(END OF MEDIA FOR 1024PX)---------- */
+/* ----------(MEDIA FOR 1440PX)---------- */
+/* ----------(END OF MEDIA FOR 1440PX)---------- */
